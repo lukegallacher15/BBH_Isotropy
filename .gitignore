@@ -1,0 +1,22 @@
+# Ignore shell and job submission scripts
+*.sh
+*.sub
+*.py
+*.pkl
+
+# Ignore specific folders
+ANISO_CHECKS/
+ANISO_CHECKS_over2/
+ANISO_CHECKS_over5/
+Full_tests/
+Harmonics/
+Plots/
+tmp/
+BHIsotropy/
+
+# Common ignores
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+*.pyc
+.env
